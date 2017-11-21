@@ -1,0 +1,36 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: #fbf6e4;
+}
+#app{
+    background-image: url(../imgs/sign-in-form_03.png);
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+    -webkit-box-shadow: -1px 1px 30px 2px rgba(43,43,43,0.75);
+    -moz-box-shadow: -1px 1px 30px 2px rgba(43,43,43,0.75);
+    box-shadow: -1px 1px 30px 2px rgba(43,43,43,0.75);
+    border-radius: 1px;
+}
+
+#app div{
+    position: relative;
+    top: 27%;
+    left: 15%;
+}
+
+#sign-links{
+    text-decoration: none;
+    margin-right: 25px;
+    position: relative;
+    bottom: 10px;
+}
+#sign-links:hover{
+  
+    text-decoration: underline;
+    text-decoration-color: #e66a64;
+}
+
